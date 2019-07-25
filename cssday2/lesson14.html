@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        body {
+            background-color: yellow;
+            color: blue;
+        }
+
+        @media all and (-ms-high-contrast:none) {
+            body {
+                background-color: red;
+                color: yellow;
+            }
+
+            /* IE10 */
+            *::-ms-backdrop,
+            body {
+                background-color: red;
+                color: yellow;
+            }
+
+            /* IE11 */
+        }
+    </style>
+    <!-- IE only style overrides default -->
+    <!--[if IE]>
+        <style type = "text/css">
+        body {
+        background-color: red;
+        color: yellow;
+        }
+        </style>
+        <![endif]-->
+</head>
+
+<body>
+    <p>
+        This page has a red background in IE, and a yellow
+        background in other browsers.
+    </p>
+</body>
+</body>
+
+</html>
