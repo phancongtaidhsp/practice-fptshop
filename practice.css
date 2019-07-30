@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100vw;
+    height: 577px;
+    background-color: #F3C6BD;
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.container--head{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    margin: 5px 10px;
+    text-align: center;
+    font-size: 1.5vw;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+nav ul li a {
+    font-size: 18px;
+        color: black;
+}
+.container__buttoncolor{
+    display: inline-block;
+    border: none;
+    margin: 5px 10px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    height: 45px;
+    width: 150px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #3040C4;
+    border-radius: 2px;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+.container--head__bold{
+    width: 32%;
+    height: auto;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+    color: black;
+}
+.container--head__bold p{
+    margin-left: 80px;
+    margin-top: -46px;
+}
+.container--head__bold img{
+    height: 60px;
+    width: 60px;
+    margin: 10px 10px;
+}
+.container--head__bold span {
+    margin-top: 15px;
+}
+span, #li--bold {
+    font-weight: bold;
+}
+.container--body{
+    height: 450px;
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin: 20px auto;
+}
+.container__image{
+    height: 400px;
+    width: 70%;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    z-index: 1;
+}
+.container--body h1{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    z-index: 100;
+    width: 80%;
+    height: 40%;
+}
+.container--body p{
+    font-family: 'Work Sans', sans-serif;
+    z-index: 100;
+    font-size: 20px;
+    width: 30%;
+    height: 20%;
+    z-index: 1;
+    margin-top: -10%;
+}
+
+.container--body--bottom{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
+.footer{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
+    color: #3040C4;
+}
+
+
