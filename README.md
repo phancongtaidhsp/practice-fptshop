@@ -13,4 +13,4 @@ In the folder practice5day there:
 ## Usage
 
 Open in browsers
-UNIQUE SETTING BETWEEN IDE
+
