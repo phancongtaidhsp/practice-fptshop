@@ -1,8 +1,7 @@
 # html-css 
 ---
 ## Run
-UNIQUE SETTING BETWEEN IDE
-Open the folder is name [practive5day](https://github.com/pUNIQUE SETTING BETWEEN IDEhancongtaidhsp/practice-fptshop/tree/master/practice5day)UNIQUE SETTING BETWEEN IDE
+Open the folder is name [practive5day](https://github.com/phancongtaidhsp/practice-fptshop/tree/master/practice5day)
 In the folder practice5day there:
 * folder images: this are images use for practice
 * file .editorconfig: this is unique setting between *IDE*
