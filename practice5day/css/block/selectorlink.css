@@ -1,0 +1,19 @@
+.selectorlink {
+  padding-right: 56px;
+  padding-left: 0;
+  margin: 0;
+  width: 273px;
+}
+.selectorlink__text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: right;
+  color: #2B292D;
+}
+.selectorlink__text:hover {
+  font-weight: bold;
+}
+.text-nobold {
+  font-weight: normal;
+}

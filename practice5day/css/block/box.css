@@ -1,0 +1,28 @@
+.box {
+  width: 18.8%;
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+.box__logo {
+  padding: 22px 0 22px 0;
+}
+.box__description {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #2B292D;
+  margin: 0;
+  padding: 0 25px 33px;
+}
+.box--editwidth {
+  width: 23%;
+}
+.box--editwidth:hover {
+  background: #3141C5;
+}
+.box--editwidth:hover .box__description {
+  color: #FFFFFF;
+  border: white;
+}

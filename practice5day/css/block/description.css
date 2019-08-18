@@ -1,0 +1,45 @@
+.description--row {
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-right: auto;
+  padding: 26px 25px;
+}
+.description--bgwhite {
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  border-radius: 8px;
+  background: #FFFFFF;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+}
+.description--bgwhite:hover {
+  background: #3141C5;
+  color: #FFFFFF;
+  box-shadow: 0px 11px 55px rgba(0, 0, 0, 0.07);
+}
+.description--bgwhite:hover .logo__extrahover {
+  color: #FFFFFF;
+  opacity: 1;
+}
+.description--bgwhite:hover .description-img{
+  background: url("/images/Arrowhover.png") no-repeat;
+}
+.description--edipadbottom {
+  margin-bottom: 42px;
+}
+.description--editpadcus {
+  width: 39.7%;
+  padding-bottom: 28px;
+}
+.description--editpad {
+  padding: 28px 325px 29px;
+}
+.description--editmar {
+  margin: -4px 0 34px;
+}
+.description--editpadtopbot{
+  padding: 12px 0 26px;
+}
+.description--editpadbot {
+  padding-bottom: 18px;
+}

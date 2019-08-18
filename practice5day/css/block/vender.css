@@ -1,0 +1,19 @@
+.vender {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: auto;
+  padding: 0 80px;
+  width: 1240px;
+}
+.vender__logo {
+  margin: auto;
+}
+.vender--edit {
+  padding-top: 30px;
+  padding-bottom: 92px;
+}
+.vender--edittop{
+  padding-top: 43px;
+  padding-bottom: 76px;
+}

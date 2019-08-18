@@ -1,0 +1,69 @@
+.text {
+  width: 100%;
+}
+.text__name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+}
+.text--green {
+  color: #009B4D;
+}
+.text__img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.text__title {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  margin: 24px 0 34px;
+}
+.text__description {
+  font-size: 24px;
+  line-height: 34px;
+}
+.text--left {
+  width: 67.3%;
+}
+.text--edit {
+  width: 93.8%;
+  padding-bottom: 44px;
+}
+.text--orange  {
+  color: #F1592B;
+}
+.text--editwidth {
+  width: 32.95%;
+  padding: 123px 193px 0px 128px;
+}
+.text--center {
+  padding: 108px 423px 110px;
+  width: 39.65%;
+}
+.text--editpadbot {
+  padding-bottom: 110px;
+}
+.text__input {
+  padding: 15px;
+  border-radius: 2px;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+}
+.text--editpad {
+  padding: 106px 229px 105px 0;
+}
+.text--footer {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(43, 41, 45, 0.6);
+}
+.text__input::placeholder {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #2B292D;
+}

@@ -1,0 +1,29 @@
+.btn{
+  background: linear-gradient(180deg, rgba(225, 225, 225, 0.05) 0%, rgba(225, 225, 225, 1e-05) 100%), #3040C4;
+  border-radius: 2px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+  background-blend-mode: overlay, normal;
+  border: 0;
+  padding: 17px 29px 18px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 13px;
+  color: #FFFFFF;
+  font-family: 'Work Sans', sans-serif;
+  cursor: pointer;
+}
+.btn--white {
+  background: #FFFFFF;
+  margin-left: 6px;
+  color: #3141C5;
+}
+.btn--edit {
+  margin-top: 39px;
+}
+.box--row {
+  width: 53.6%;
+  margin-bottom: 20px;
+}
+.btn--editmar {
+  margin-bottom: 20px;
+}

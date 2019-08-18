@@ -1,0 +1,23 @@
+.img {
+  width: 30.61%;
+}
+.img__description {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(43, 41, 45, 0.6);
+  margin-top: 6px;
+}
+.text-left {
+  text-align: left;
+}
+.img--editright {
+  padding-right: 192px;
+  width: 39%;
+}
+.img--editpadding {
+  padding-left: 0;
+}
+.img--editpad {
+  padding: 110px 193px 68px 0px;
+}

@@ -1,0 +1,32 @@
+.sortrow {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.sortcol {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.sortrow--editjc {
+  justify-content: flex-start;
+}
+.img-right {
+  padding-bottom: 85px;
+}
+.block-editpad {
+  padding: 0 115px 110px;
+  width: 1170px;
+}
+.editpad {
+  padding: 0px 115px 110px;
+}
+.sortcol--edital-it {
+  align-items: center;
+}
+.sortrow--editpadd {
+  padding: 0px 130px 110px;
+}
+.block-editpadding {
+  padding: 115px 99px 101px 193px;
+  width: 1108px;
+}

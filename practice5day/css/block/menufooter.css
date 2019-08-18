@@ -1,0 +1,12 @@
+.menufooter {
+  margin: 0;
+  padding: 0;
+  width: 48.6%;
+}
+.menufooter--editpad {
+  padding: 55px 238px 47px 0;
+  width: 39%;
+}
+.menufooter--editmarright {
+  margin-right: 29px;
+}
